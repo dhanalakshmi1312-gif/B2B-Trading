@@ -1186,3 +1186,16 @@ section p {
         display: none;
     }
 }
+/* Desktop and laptop menu icon fix */
+
+@media (min-width: 901px) {
+    .menu-toggle {
+        display: none !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .menu-toggle {
+        display: block !important;
+    }
+}
